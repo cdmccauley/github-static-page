@@ -1,0 +1,30 @@
+#title-typography {
+  display: flex;
+  flex-grow: 1;
+  align-content: flex-start;
+  margin-top: .5em;
+  margin-bottom: .6em;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px #000;
+}
+
+.icon-style {
+  color: white;
+}
+
+.menu-icon {
+  font-size: 1.25em;
+  margin-right: 0.75em;
+}
+
+#no-rule {
+  color: #333;
+}
+
+@media screen and (min-width: 769px) {
+
+  #toolbar {
+    padding-left: 15vw !important;
+  }
+
+}

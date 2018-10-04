@@ -1,0 +1,53 @@
+/* #drum-machine html {
+	font-family: orbitron;
+	background-color: #262626;
+} */
+
+/* #drum-machine {
+	display: grid;
+	grid-template-columns: 5em 5em 5em;
+	grid-template-rows: 4em 5em 5em 5em;
+	grid-column-gap: .5em;
+  grid-row-gap: .5em;
+	align-content: center;
+	justify-content: center;
+	font-size: 1.5em;
+} */
+
+#drum-machine {
+	display: grid;
+	grid-template-columns: 3em 3em 3em;
+	grid-template-rows: 3.25em 3em 3em 3em;
+	grid-column-gap: .5em;
+  grid-row-gap: .5em;
+	align-content: center;
+	justify-content: center;
+  font-size: 1.5em;
+
+  background-color: #262626;
+  font-family: 'Orbitron';
+  padding: 1em 0q;
+}
+
+#drum-machine #display {
+	grid-column: 1 / 4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #330000;
+	color: red;
+	font-size: 1.75em;
+  border: 3px solid black;
+}
+
+#drum-machine .drum-pad {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: black;
+	color: white;
+	border: 2px solid dimgrey;
+	box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.65);
+}

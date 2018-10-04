@@ -1,0 +1,60 @@
+#landing {
+  padding: 0 16px 16px 16px;
+}
+
+#landing #paper {
+  display: flex;
+  padding: .75em .5em;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+#landing img {
+  border-radius: 50%;
+  margin: 0 .5em 0 0;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+#landing-name {
+  color: #88e234;
+}
+
+#landing-title {
+  color: #5c9ccf;
+}
+
+#intro {
+  clear: both;
+}
+
+.console-green {
+  color: #88e234;
+}
+
+.console-blue {
+  color: #5c9ccf;
+}
+
+#landing #icons {
+  margin-top: .4em;
+}
+
+#landing .icon-style {
+  color: white;
+  margin-right: .25em;
+  font-size: 1.25em;
+}
+
+@media screen and (min-width: 769px) {
+
+  #landing {
+    padding: 32px 15vw 32px 15vw;
+  }
+
+  #landing #paper {
+    float: left;
+  }
+
+}

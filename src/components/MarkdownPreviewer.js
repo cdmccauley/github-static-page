@@ -2,6 +2,11 @@
 import React, { Component } from 'react';
 import './MarkdownPreviewer.css';
 
+// material-ui imports
+import Button from '@material-ui/core/Button';
+import DeleteIcon from '@material-ui/icons/Delete';
+import Typography from '@material-ui/core/Typography';
+
 // import marked
 import marked from 'marked';
 
@@ -58,7 +63,10 @@ class MarkdownPreviewer extends Component {
 	render() {
 		return (
       <div style={{ marginBottom: '1em' }}>
-				<button style={{ alignSelf: 'flex-end' }} onClick={this.clearTb}>Clear</button>
+				<div id="tag">
+					<Typography variant="subheading">Enter markdown below to preview.</Typography>
+					<Button variant="contained" style={{ color: 'black' }} onClick={ this.clearTb }><DeleteIcon />Clear</Button>
+				</div>
         <EditComponent markdown={this.state.markdown} onChange={this.handleChange} />
         <PreviewComponent markdown={this.state.markdown} />
       </div>

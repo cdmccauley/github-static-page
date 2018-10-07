@@ -18,7 +18,7 @@ class Footer extends Component {
           <hr />
           <Typography id="footer-logo" variant="display1">{ "\{ m \}" }</Typography>
           <Typography>
-            Chris McCauley is a software developer available for hire that lives and studies in the Davis and Salt Lake counties of northern Utah, USA.
+            Chris McCauley is a software developer currently looking for a team to join that lives and studies in the Davis and Salt Lake counties of northern Utah, USA.
           </Typography>
           <div id="social-nav">
             <a href="https://codepen.io/cdmccauley/" target="_blank" rel="noopener noreferrer">CodePen</a>

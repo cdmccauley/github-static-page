@@ -32,8 +32,10 @@ class Portfolio extends Component {
             projectUrl={'https://tech-mccauley-ggg.herokuapp.com/'} 
             projectTitle={'Git Gud Games'}
             projectTech={[faPhp, faDatabase, faHtml5, faCss3]} 
-            projectDescription={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}
+            Also uses H
+            projectDescription={`An online game store with registration, login/logout, games profile, 
+              and purchase/download features. Uses Heroku for hosting and was written with PHP, MySQL, 
+              HTML, CSS/Bootstrap.`}
             laptopUri={'assets/gggLaptopCrop.PNG'} 
             tabletUri={'assets/gggTabletCrop.PNG'}
             phoneUri={'assets/gggPhoneCrop.PNG'} 
@@ -42,8 +44,8 @@ class Portfolio extends Component {
             projectUrl={'https://codepen.io/cdmccauley/full/pdXaGK/'} 
             projectTitle={'Grace Hopper'}
             projectTech={[faHtml5, faCss3]} 
-            projectDescription={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}
+            projectDescription={`A responsive single page profile written about Grace Hopper. 
+              Hosted on codepen.io created with HTML/CSS.`}
             laptopUri={'assets/ghLaptopCrop.PNG'} 
             tabletUri={'assets/ghTabletCrop.PNG'}
             phoneUri={'assets/ghPhoneCrop.PNG'} 
@@ -52,8 +54,8 @@ class Portfolio extends Component {
             projectUrl={'https://mccauley.tech/portfolio-content/easy-astronomy'} 
             projectTitle={'Easy Astronomy'}
             projectTech={[faHtml5, faCss3]} 
-            projectDescription={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}
+            projectDescription={`A responsive website project to provide information about easily 
+              observable events in our solar system(currently incomplete). Written with HTML and CSS.`}
             laptopUri={'assets/eaLaptopCrop.PNG'} 
             tabletUri={'assets/eaTabletCrop.PNG'}
             phoneUri={'assets/eaPhoneCrop.PNG'} 
@@ -73,8 +75,10 @@ class Portfolio extends Component {
               <FontAwesomeIcon icon={ faHtml5 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
               <FontAwesomeIcon icon={ faCss3 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
             </div>
-            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}</Typography>
+            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>
+              {`Written using React.js, Marked.js, JavaScript, JSX, and HTML/CSS this component enables a 
+                user to enter GitHub flavored Markdown into a textbox to preview its output.`}
+            </Typography>
           </div>
           <MarkdownPreviewer />
           <div style={{ margin: '.25em 13% 1em 13%' }}>
@@ -85,8 +89,11 @@ class Portfolio extends Component {
               <FontAwesomeIcon icon={ faHtml5 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
               <FontAwesomeIcon icon={ faCss3 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
             </div>
-            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}</Typography>
+            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>
+              {`Written using React.js, JavaScript, JSX, and HTML/CSS this component pulls JSON from a 
+                GitHub Gist that contains a famous quote along with its author. Includes a button 
+                enabling users to view another quote or share the quote to Twitter.`}
+            </Typography>
           </div>
           <QuoteGenerator />
           <div style={{ margin: '.25em 13% 1em 13%' }}>
@@ -97,8 +104,11 @@ class Portfolio extends Component {
               <FontAwesomeIcon icon={ faHtml5 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
               <FontAwesomeIcon icon={ faCss3 } style={{ color: '#5c9ccf', marginRight: '.25em', fontSize: '1.25em'}} />
             </div>
-            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqual.`}</Typography>
+            <Typography variant="subheading" align={'justify'} style={{ marginBottom: '1em' }}>
+              {`Written using React.js, JavaScript, JSX, and HTML/CSS this component plays an audio 
+                clip hosted on Amazon AWS when a button is pressed. Press the switch below to enable 
+                the clips to be played using your keyboard.`}
+            </Typography>
           </div>
           <DrumMachine />
         </Paper>

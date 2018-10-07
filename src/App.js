@@ -11,6 +11,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Header from './Header.js';
 import Landing from './Landing.js';
 import Portfolio from './Portfolio.js';
+import Contact from './Contact.js';
 import Footer from './Footer.js';
 import NotFound from './NotFound.js';
 
@@ -45,6 +46,7 @@ class App extends Component {
           <Route path='/portfolio' component={ Portfolio } />
           <Route path='/resume' component={() => window.location = 'https://mccauley.tech/resume'} />
           <Route path='/contact' component={() => window.location = 'https://mccauley.tech/contact'} />
+          <Route path='/dev-contact' component={ Contact } />
           <Route component={ NotFound } />
         </RouterSwitch>
         <Footer />

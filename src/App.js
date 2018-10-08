@@ -16,7 +16,7 @@ import Footer from './Footer.js';
 import NotFound from './NotFound.js';
 
 // react-router-dom imports
-import { Route, Switch as RouterSwitch, Redirect } from 'react-router-dom';
+import { Route, Switch as RouterSwitch } from 'react-router-dom';
 
 class App extends Component {
 

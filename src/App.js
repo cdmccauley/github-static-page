@@ -45,8 +45,7 @@ class App extends Component {
           <Route exact path='/' component={ Landing } />
           <Route path='/portfolio' component={ Portfolio } />
           <Route path='/resume' component={() => window.location = 'https://mccauley.tech/resume'} />
-          <Route path='/contact' component={() => window.location = 'https://mccauley.tech/contact'} />
-          <Route path='/dev-contact' component={ Contact } />
+          <Route path='/contact' component={ Contact } />
           <Route component={ NotFound } />
         </RouterSwitch>
         <Footer />

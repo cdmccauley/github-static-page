@@ -37,9 +37,8 @@ class Footer extends Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
             <li><a href="https://mccauley.tech/resume" target="_blank" rel="noopener noreferrer">Resume</a></li>
-            <li><a href="https://mccauley.tech/contact" target="_blank" rel="noopener noreferrer">Contact</a></li>
-            {/* <li><Link to="/resume">Resume</Link></li>
-            <li><Link to="/contact">Contact</Link></li> */}
+            {/* <li><Link to="/resume">Resume</Link></li> */}
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </div>

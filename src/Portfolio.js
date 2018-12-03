@@ -29,6 +29,17 @@ class Portfolio extends Component {
         <Typography variant="display1" style={{ fontSize: '1.5rem', margin: '1.75em 0 .25em 0' }}>Websites</Typography>
         <Paper style={{ padding: '.25em 0'}}>
           <Mockup 
+            projectUrl={'https://cdmccauley.github.io/ups-rate-live/'} 
+            projectTitle={'Ups Rate Live'}
+            projectTech={[faReact, faHtml5, faCss3]} 
+            Also uses H
+            projectDescription={`See the most popular posts being upvoted on Reddit. Built with React
+               using the Reddit API.`}
+            laptopUri={'assets/urlLaptopCrop.PNG'} 
+            tabletUri={'assets/urlTabletCrop.PNG'}
+            phoneUri={'assets/urlPhoneCrop.PNG'} 
+          />
+          <Mockup 
             projectUrl={'https://tech-mccauley-ggg.herokuapp.com/'} 
             projectTitle={'Git Gud Games'}
             projectTech={[faPhp, faDatabase, faHtml5, faCss3]} 

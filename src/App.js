@@ -46,6 +46,7 @@ class App extends Component {
           <Route path='/portfolio' component={ Portfolio } />
           <Route path='/resume' component={() => window.location = 'https://mccauley.tech/resume'} />
           <Route path='/contact' component={ Contact } />
+          <Route path='/ups-rate-live' component={() => window.location = 'https://cdmccauley.github.io/ups-rate-live'} />
           <Route component={ NotFound } />
         </RouterSwitch>
         <Footer />

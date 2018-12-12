@@ -9,10 +9,10 @@ import Paper from '@material-ui/core/Paper';
 // fontawesome imports
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHashtag } from '@fortawesome/free-solid-svg-icons';
-import { faJava, faJs, faReact, faHtml5, faCss3, faAndroid, faAngular, faSass, faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faHashtag, faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faJava, faJs, faReact, faHtml5, faCss3, faAndroid, faAngular, faSass, faPhp, faLinux, faWindows } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faJava, faHashtag, faJs, faReact, faHtml5, faCss3, faSass, faAndroid, faAngular, faPhp);
+library.add(faJava, faHashtag, faDatabase, faJs, faReact, faHtml5, faCss3, faSass, faAndroid, faAngular, faPhp, faLinux, faWindows);
 
 class Landing extends Component {
 
@@ -27,16 +27,18 @@ class Landing extends Component {
               <Typography id="landing-name" variant="headline">Chris McCauley</Typography>
               <Typography id="landing-title" variant="subheading">Software Developer</Typography>
               <div id="icons">
+                <FontAwesomeIcon icon={faJs} className="icon-style" />
+                <FontAwesomeIcon icon={faReact} className="icon-style" />
+                <FontAwesomeIcon icon={faPhp} className="icon-style" />
                 <FontAwesomeIcon icon={faJava} className="icon-style" />
                 <FontAwesomeIcon icon={faHashtag} className="icon-style" />
                 <FontAwesomeIcon icon={faAndroid} className="icon-style" />
-                <FontAwesomeIcon icon={faPhp} className="icon-style" />
-                <FontAwesomeIcon icon={faJs} className="icon-style" />
-                <FontAwesomeIcon icon={faReact} className="icon-style" />
-                <FontAwesomeIcon icon={faAngular} className="icon-style" />
+                <FontAwesomeIcon icon={faDatabase} className="icon-style" />
                 <FontAwesomeIcon icon={faHtml5} className="icon-style" />
                 <FontAwesomeIcon icon={faCss3} className="icon-style" />
                 <FontAwesomeIcon icon={faSass} className="icon-style" />
+                <FontAwesomeIcon icon={faLinux} className="icon-style" />
+                <FontAwesomeIcon icon={faWindows} className="icon-style" />
               </div>
             </div>
           </Paper>

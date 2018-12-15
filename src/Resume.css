@@ -3,8 +3,19 @@
   padding: 0 16px 16px 16px;
 }
 
+#resume-header {
+  display: flex;
+  flex-flow: column;
+}
+
+#resume-img {
+  display: flex;
+  justify-content: center;
+}
+
 #resume-img img {
-  width: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .mb {

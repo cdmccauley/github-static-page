@@ -75,13 +75,11 @@ class Header extends Component {
               </MenuItem>
             </Link>
             
-            {/* <Link to='/resume'> */}
-            <a href="https://mccauley.tech/resume" target="_blank" rel="noopener noreferrer">
+            <Link to='/resume'>
               <MenuItem onClick={this.handleClose} id='menu-resume'>
                 <Typography variant="subheading">Resume</Typography>
               </MenuItem>
-            </a>
-            {/* </Link> */}
+            </Link>
 
             <Link to='/contact'>
               <MenuItem onClick={this.handleClose} id='menu-contact'>

@@ -28,59 +28,73 @@ class Resume extends Component {
               </div>
             </div>
           </div>
+          <hr />
           <div id='resume-contact'>
-            <hr />
             <Typography>cdmccauley@gmail.com</Typography>
             <Typography>Salt Lake and Davis Counties, Utah</Typography>
             <Typography>cdmccauley.github.io</Typography>
-            <hr />
           </div>
+          <hr />
         </div>
-        <div className='mb'>
-          <div id='resume-edu'>
-            <Typography variant='body2' className='underline'>EDUCATION</Typography>
-            <div className='mb'>
-              <Typography variant='body2'>Information Technology</Typography>
-              <Typography>Software Development</Typography>
+        <div id='resume-cols'>
+          <div className='mb'>
+            <div id='resume-edu'>
+              <Typography variant='body2' className='underline'>EDUCATION</Typography>
+              <div className='mb'>
+                <Typography variant='body2'>Information Technology</Typography>
+                <Typography>Software Development</Typography>
+                <Typography>Davis Technical College</Typography>
+                <Typography className='italic'>2018</Typography>
+              </div>
+              <Typography variant='body2'>Architectural and Engineering Design</Typography>
+              <Typography>Computer Aided Drafting</Typography>
               <Typography>Davis Technical College</Typography>
-              <Typography className='italic'>2018</Typography>
+              <Typography className='italic'>2011</Typography>
             </div>
-            <Typography variant='body2'>Architectural and Engineering Design</Typography>
-            <Typography>Computer Aided Drafting</Typography>
-            <Typography>Davis Technical College</Typography>
-            <Typography className='italic'>2011</Typography>
           </div>
-        </div>
-        <div className='mb'>
-          <div id='resume-cert'>
-            <Typography variant='body2' className='underline'>CERTIFICATIONS</Typography>
-            <Typography variant='body2'>Networking Fundamentals</Typography>
-            <Typography>Microsoft Technical Associate</Typography>
-            <Typography variant='body2'>Information Technology Fundamentals</Typography>
-            <Typography>CompTIA</Typography>
-            <Typography variant='body2'>Linux Essentials</Typography>
-            <Typography>Net Dev Group</Typography>
+          <div className='mb'>
+            <div id='resume-cert'>
+              <Typography variant='body2' className='underline'>CERTIFICATIONS</Typography>
+              <Typography variant='body2'>Networking Fundamentals</Typography>
+              <Typography>Microsoft Technical Associate</Typography>
+              <Typography variant='body2'>Information Technology Fundamentals</Typography>
+              <Typography>CompTIA</Typography>
+              <Typography variant='body2'>Linux Essentials</Typography>
+              <Typography>Net Dev Group</Typography>
+            </div>
           </div>
-        </div>
-        <div className='mb'>
-          <div id='resume-skills'>
-            <Typography variant='body2' className='underline'>SKILLS</Typography>
-            <Typography>JavaScript/ES6</Typography>
-            <Typography>React</Typography>
-            <Typography>Java</Typography>
-            <Typography>C#</Typography>
-            <Typography>PHP</Typography>
-            <Typography>Android</Typography>
-            <Typography>HTML5</Typography>
-            <Typography>CSS3/SASS</Typography>
-            <Typography>SQL/MySQL</Typography>
-            <Typography>Git/GitHub</Typography>
-            <Typography>Windows</Typography>
-            <Typography>GNU/Linux</Typography>
-            <Typography>Networking</Typography>
-            <Typography>Troubleshooting</Typography>
           </div>
-        </div>
+          <div className='mb'>
+            <div id='resume-skills'>
+              <Typography variant='body2' className='underline'>SKILLS</Typography>
+              <div id='resume-skills-list'>
+              <div className='resume-skills-set'>
+              <Typography>JavaScript/ES6</Typography>
+              <Typography>React</Typography>
+              <Typography>Java</Typography>
+              </div>
+              <div className='resume-skills-set'>
+              <Typography>C#</Typography>
+              <Typography>PHP</Typography>
+              <Typography>Android</Typography>
+              </div>
+              <div className='resume-skills-set'>
+              <Typography>HTML5</Typography>
+              <Typography>CSS3/SASS</Typography>
+              <Typography>SQL/MySQL</Typography>
+              </div>
+              <div className='resume-skills-set'>
+              <Typography>Git/GitHub</Typography>
+              <Typography>Windows</Typography>
+              <Typography>GNU/Linux</Typography>
+              </div>
+              <div className='resume-skills-set'>
+              <Typography>Networking</Typography>
+              <Typography>Troubleshooting</Typography>
+              </div>
+              </div>
+            </div>
+          </div>
           <div id='resume-xp'>
             <Typography variant='body2' className='underline'>EXPERIENCE</Typography>
             <Typography variant='body2'>CNC Operations Supervisor</Typography>
@@ -115,7 +129,7 @@ class Resume extends Component {
               liaison for the data center and their clients, while handling workload overflow for 
               other teams.
             </Typography>
-        </div>
+          </div>
       </div>
     );
   };

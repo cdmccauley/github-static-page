@@ -5,7 +5,7 @@
 
 #resume-header {
   display: flex;
-  flex-flow: column;
+  flex-flow: column nowrap;
 }
 
 #resume-img {
@@ -34,6 +34,51 @@
 
   #resume {
     padding: 0 15vw 32px 15vw;
+  }
+
+  #resume-header {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  #resume-intro {
+    max-width: 50%;
+  }
+
+  #resume-img {
+    order: 2;
+  }
+
+  #resume-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #resume-contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  #resume-cols {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  #resume-skills-list {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #resume-skills-list p {
+    display: inline-flex;
+  }
+
+  .resume-skills-set {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
 
 }

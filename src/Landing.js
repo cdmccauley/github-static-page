@@ -46,12 +46,12 @@ class Landing extends Component {
             Lifelong tech enthusiast and recent graduate from Davis Technical College's Information Technology program with an emphasis in Software Development. I have experience developing with Java, C#, PHP, HTML, CSS, and MySQL, for Linux, Windows, and Android. I have also spent time learning JavaScript, ES6, TypeScript, JQuery, React, Node, Angular, and Ruby and have earned certifications from CompTIA, Microsoft, and NDG. Please, have a look around to learn about me and my studies. Feel free to contact me with any questions.
           </Typography>
         </div>
-        <Paper style={{ marginTop: '1em', padding: '5px' }}>
+        {/* <Paper style={{ marginTop: '1em', padding: '5px' }}>
           <a href="https://wakatime.com/@e02ade4b-d444-4590-936c-20c5002079f1" target="_blank" rel="noopener noreferrer">
             <Typography variant="subheading" style={{ textDecoration: "underline", textAlign: "center", color: "#5c9ccf" }}>Wakatime Profile</Typography>
           </a>
           <embed src="https://wakatime.com/share/@e02ade4b-d444-4590-936c-20c5002079f1/786c2d6f-44e7-4c7d-85f7-6baa1e46683a.svg"></embed>
-        </Paper>
+        </Paper> */}
       </div>
 
     );
